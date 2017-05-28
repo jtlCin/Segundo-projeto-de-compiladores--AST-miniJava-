@@ -20,4 +20,4 @@ public class Variable {
 		return type;
 	}
 
-} // Variable
+}

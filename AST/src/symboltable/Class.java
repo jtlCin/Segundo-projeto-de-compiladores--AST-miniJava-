@@ -1,6 +1,6 @@
 package symboltable;
 
-// import java.util.Enumeration;
+import java.util.Enumeration;
 import java.util.Hashtable;
 
 import ast.IdentifierType;
@@ -42,9 +42,9 @@ public class Class {
 		}
 	}
 
-	/* public Enumeration getMethods() {
+	public Enumeration getMethods() {
 		return methods.keys();
-	} */
+	}
 
 	public Method getMethod(String id) {
 		if (containsMethod(id))
@@ -80,4 +80,4 @@ public class Class {
 	public String parent() {
 		return parent;
 	}
-} // Class
+}

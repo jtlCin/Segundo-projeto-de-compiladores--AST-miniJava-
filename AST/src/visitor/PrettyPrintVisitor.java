@@ -1,6 +1,7 @@
 package visitor;
 
-import ast.And;
+import ast.*;
+/*import ast.And;
 import ast.ArrayAssign;
 import ast.ArrayLength;
 import ast.ArrayLookup;
@@ -33,7 +34,7 @@ import ast.This;
 import ast.Times;
 import ast.True;
 import ast.VarDecl;
-import ast.While;
+import ast.While;*/
 
 public class PrettyPrintVisitor implements Visitor {
 

@@ -1,6 +1,6 @@
 package symboltable;
 
-// import java.util.Enumeration;
+import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Vector;
 
@@ -37,9 +37,9 @@ public class Method {
 		}
 	}
 
-	/* public Enumeration getParams() {
+	public Enumeration getParams() {
 		return params.elements();
-	} */
+	}
 
 	public Variable getParamAt(int i) {
 		if (i < params.size())
@@ -84,4 +84,4 @@ public class Method {
 		return null;
 	}
 
-} // Method
+}

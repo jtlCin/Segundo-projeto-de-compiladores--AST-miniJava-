@@ -1,7 +1,7 @@
 package visitor;
 
-import symboltable.SymbolTable;
-import ast.And;
+import ast.*;
+/*import ast.And;
 import ast.ArrayAssign;
 import ast.ArrayLength;
 import ast.ArrayLookup;
@@ -35,14 +35,16 @@ import ast.Times;
 import ast.True;
 import ast.Type;
 import ast.VarDecl;
-import ast.While;
+import ast.While;*/
+import symboltable.*;
+import symboltable.Class;
 
 public class TypeCheckVisitor implements TypeVisitor {
 
-//	private SymbolTable symbolTable;
+	private SymbolTable symbolTable;
 
 	public TypeCheckVisitor(SymbolTable st) {
-//		symbolTable = st;
+		symbolTable = st;
 	}
 
 	// MainClass m;
